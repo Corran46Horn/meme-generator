@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Britney",
+    "upvotes": 6,
+    "downvotes": 0,
+    "img": "/assets/images/britney.jpg"
+  },
+  {
+    "title": "duck",
+    "upvotes": 1,
+    "downvotes": 0,
+    "img": "/assets/images/duck.jpg"
+  },
+  {
+    "title": "frodo",
+    "upvotes": 6,
+    "downvotes": 0,
+    "img": "/assets/images/frodo.jpg"
+  },
+  {
+    "title": "git",
+    "upvotes": 6,
+    "downvotes": 0,
+    "img": "/assets/images/git.jpg"
+  },
+  {
+    "title": "goat",
+    "upvotes": 6,
+    "downvotes": 0,
+    "img": "/assets/images/goat.jpeg"
+  },
+  {
+    "title": "lol",
+    "upvotes": 6,
+    "downvotes": 0,
+    "img": "/assets/images/lol.jpeg"
+  },
+  {
+    "title": "nestle",
+    "upvotes": 6,
+    "downvotes": 0,
+    "img": "/assets/images/nestle.jpg"
+  },
+  {
+    "title": "nine",
+    "upvotes": 6,
+    "downvotes": 0,
+    "img": "/assets/images/nine.jpg"
+  },
+  {
+    "title": "rener",
+    "upvotes": 6,
+    "downvotes": 0,
+    "img": "/assets/images/rener.jpg"
+  }
+]

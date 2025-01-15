@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Orzel'; /*Can be any text*/
+  src: local('Orzel'), url('./fonts/SLOrzel-Regular.otf') format('truetype');
+}
+body {
+  font-family: 'Orzel';
+}
+nav {
+  padding: 20px;
+  background-color: #ffb8b8;
+  .navbar-logo {
+    font-size: 36px;
+    line-height: 48px;
+    text-decoration: none;
+    color: antiquewhite;
+    position: relative;
+    text-transform: uppercase;
+    &::after {
+      content: '';
+      background-color: antiquewhite;
+      left: -50%;
+      height: 2px;
+      width: 100%;
+      bottom: -10px;
+      transition-duration: 0.5s;
+      position: absolute;
+      opacity: 0;
+    }
+    &:hover {
+      &::after {
+        display: block;
+        left: 0;
+        opacity: 1;
+      }
+    }
+  }
+}
+aside {
+  .d-flex {
+    display: flex;
+    justify-content: space-between;
+    a {
+      color: #ffb8b8;
+      font-size: 24px;
+      line-height: 30px;
+      margin-right: 25px;
+      text-decoration: none;
+      position: relative;
+      overflow: hidden;
+      text-transform: uppercase;
+      transition-duration: 0.5s;
+      &:hover {
+        color: black;
+      }
+    }
+  }
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.form-page {
+  padding: 50px 0;
+  label {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}

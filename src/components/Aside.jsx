@@ -17,7 +17,7 @@ const Aside = () => {
             to='/regular'
             className={({ isActive }) => (isActive ? 'active' : '')}
           >
-            Wszystkie
+            Regular
           </NavLink>
           <NavLink
             to='/form'

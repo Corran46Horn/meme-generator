@@ -50,7 +50,9 @@ function App() {
               path='/regular'
               element={
                 <MainPage
-                  memes={memes.filter((meme) => meme)}
+                  memes={memes.filter(
+                    (mem) => mem.upvotes - mem.downvotes <= 5
+                  )}
                   updateMeme={updateMeme}
                 />
               }

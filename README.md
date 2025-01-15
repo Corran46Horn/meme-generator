@@ -4,22 +4,22 @@ This project is a Meme Generator built with React. It allows users to browse, up
 
 ## Project Structure
 
-src/
-├── components/
-│ ├── Navbar.js
-│ ├── Sidebar.js
-│ ├── Mem.js
-│ ├── Form.js
-├── routes/
-│ ├── MainPage.js
-│ ├── HotPage.js
-│ ├── Landing.js
-│ ├── FormPage.js
-├── assets.json
-├── App.js
-├── index.js
-├── App.css
-
+src/  
+├── components/    
+│ ├── Navbar.js  
+│ ├── Sidebar.js  
+│ ├── Mem.js  
+│ ├── Form.js  
+├── routes/  
+│ ├── MainPage.js  
+│ ├── HotPage.js  
+│ ├── Landing.js  
+│ ├── FormPage.js  
+├── assets.json  
+├── App.js  
+├── index.js  
+├── App.css  
+  
 Usage
 Main Page: Displays all memes. Users can upvote, downvote, and add memes to favorites.
 Favorites Page: Displays memes with an upvote-to-downvote ratio greater than 5. If a meme's ratio drops below 5, it will be removed from the favorites page.

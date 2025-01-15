@@ -24,6 +24,10 @@ function App() {
     );
   };
 
+  const addMeme = (newMeme) => {
+    setMemes((prevMemes) => [...prevMemes, newMeme]);
+  };
+
   return (
     <Router>
       <div className='app'>
@@ -57,7 +61,7 @@ function App() {
                 />
               }
             />
-            <Route path='/form' element={<FormPage addMeme={setMemes} />} />
+            <Route path='/form' element={<FormPage addMeme={addMeme} />} />
           </Routes>
         </Container>
       </div>

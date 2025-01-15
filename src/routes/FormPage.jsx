@@ -11,9 +11,9 @@ const FormPage = ({ addMeme }) => {
     const newMeme = {
       id: Date.now(),
       title,
-      image: url || image,
       upvotes: 0,
       downvotes: 0,
+      img: url || image,
     };
     addMeme((prevMemes) => [...prevMemes, newMeme]);
     setTitle('');

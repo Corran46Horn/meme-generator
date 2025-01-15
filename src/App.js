@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+// import { useState } from 'react';
+import memeData from './assets/assets.json';
+import { Meme } from './components/Meme.jsx';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from '@mui/material/Container';
 
 function App() {
+  // const [memes, setMemes] = useState(memeData);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container maxWidth='lg'>
+      {memeData.map((meme) => (
+        <Meme key={meme.title} meme={meme} />
+      ))}
+    </Container>
   );
 }
 

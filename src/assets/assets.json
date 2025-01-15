@@ -3,54 +3,54 @@
     "title": "Britney",
     "upvotes": 6,
     "downvotes": 0,
-    "img": "/assets/images/britney.jpg"
+    "img": "images/britney.jpg"
   },
   {
     "title": "duck",
     "upvotes": 1,
     "downvotes": 0,
-    "img": "/assets/images/duck.jpg"
+    "img": "images/duck.jpg"
   },
   {
     "title": "frodo",
     "upvotes": 6,
     "downvotes": 0,
-    "img": "/assets/images/frodo.jpg"
+    "img": "images/frodo.jpg"
   },
   {
     "title": "git",
     "upvotes": 6,
     "downvotes": 0,
-    "img": "/assets/images/git.jpg"
+    "img": "images/git.jpg"
   },
   {
     "title": "goat",
     "upvotes": 6,
     "downvotes": 0,
-    "img": "/assets/images/goat.jpeg"
+    "img": "images/goat.jpeg"
   },
   {
     "title": "lol",
     "upvotes": 6,
     "downvotes": 0,
-    "img": "/assets/images/lol.jpeg"
+    "img": "images/lol.jpeg"
   },
   {
     "title": "nestle",
     "upvotes": 6,
     "downvotes": 0,
-    "img": "/assets/images/nestle.jpg"
+    "img": "images/nestle.jpg"
   },
   {
     "title": "nine",
     "upvotes": 6,
     "downvotes": 0,
-    "img": "/assets/images/nine.jpg"
+    "img": "images/nine.jpg"
   },
   {
     "title": "rener",
     "upvotes": 6,
     "downvotes": 0,
-    "img": "/assets/images/rener.jpg"
+    "img": "images/rener.jpg"
   }
 ]
